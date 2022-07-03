@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.social {
+    margin: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    width: 84px;
+    height: 84px;
+    background: url('img/spriteicon.png') no-repeat;
+    display: block;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.social ul li:first-child a {
+    background-position: 0 0;
+}
+
+.social ul li:first-child:hover a {
+    background-position: 0px -84px;
+}
+
+.social ul li:nth-child(2) a {
+    background-position: -84px 0px;
+}
+
+.social ul li:nth-child(2):hover a {
+    background-position: -84px -84px;
+}
+
+.social ul li:last-child a {
+    background-position: -168px 0px;
+}
+
+.social ul li:last-child:hover a {
+    background-position: -168px -84px;
+}
